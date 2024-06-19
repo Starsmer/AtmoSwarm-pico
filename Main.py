@@ -1,24 +1,21 @@
 import time
-#import ubinascii
-#from mqtt.simple import MQTTClient
 import machine
 from temp import Temp
 from SETTINGS import ID, INTERVAL
 from publisher import Publisher
 
-
-# Publish MQTT messages after every set timeout
 last_publish = 30
 publish_interval = INTERVAL
 
-
 def reset():
+   '''Reset device'''
     print("Resetting...")
     time.sleep(5)
     machine.reset()
     
 
 def main():
+   '''main loop'''
     P = Publisher()
     T = Temp()
     while True:
