@@ -1,4 +1,4 @@
-#  this is where things happen
+#  runs main loop on boot
 import network, utime, machine
 from wifi import Wifi
 import Main
