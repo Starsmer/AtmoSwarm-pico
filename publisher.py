@@ -1,5 +1,5 @@
 from mqtt.simple import MQTTClient
-from env import ID, BROKER
+from SETTINGS import ID, BROKER
 
 class Publisher:
     
