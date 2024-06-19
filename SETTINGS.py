@@ -1,8 +1,11 @@
-wifi = ""
-pw  =  ""
-name = "Pico Alpha"
-location = "Living Room"
+wifi = ""  # Your LAN
+pw  =  ""  # Your LAN Password
+
+name = "Pico Alpha"  # node identifier (not used anywhere currently)
+location = "Living Room"  # room identifier (not used anywhere currently)
+
 ID = "room1"  # topic = "{ID}-Temp"
-BROKER = "10.2.147.1"
-INTERVAL = 600 #seconds
-QOS = 1
+INTERVAL = 600 # seconds between updates
+
+BROKER = "10.2.147.1"  # MQTT Broker IP
+QOS = 1  # MQTT QOS
