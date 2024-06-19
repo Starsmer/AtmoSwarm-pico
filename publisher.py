@@ -2,7 +2,7 @@ from mqtt.simple import MQTTClient
 from SETTINGS import ID, BROKER
 
 class Publisher:
-    
+    """class to publish readings"""
     def __init__(self):
         #CLIENT_ID = ID #ubinascii.hexlify(machine.unique_id())
         self.TOPIC = f"{ID}-Temp"
