@@ -1,5 +1,4 @@
 import machine
-from wifi import Wifi
 
 class Temp:
     """Class for retrieving on-board Temporature sensor data"""
@@ -16,7 +15,6 @@ class Temp:
 
 
 if __name__ == '__main__':
-    Wifi(env.wifi, env.pw)
     T = Temp()
     while True:
         print(T.get_temp(), end = "\r")
