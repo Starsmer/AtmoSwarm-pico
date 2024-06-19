@@ -3,7 +3,7 @@ import time
 #from mqtt.simple import MQTTClient
 import machine
 from temp import Temp
-from env import ID, INTERVAL
+from SETTINGS import ID, INTERVAL
 from publisher import Publisher
 
 
