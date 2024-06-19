@@ -1,7 +1,7 @@
-wifi = "BluePill"
-pw  =  "rabbitH0L3"
-name = "Pico Beta"
+wifi = ""
+pw  =  ""
+name = "Pico Alpha"
 location = "Living Room"
-ID = "room2"
-BROKER = "10.3.141.1"
+ID = "room1"
+BROKER = "10.2.147.1"
 INTERVAL = 600 #seconds
